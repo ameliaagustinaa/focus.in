@@ -37,7 +37,7 @@
             <a class="nav-link" href="#">Tugas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Konsultasi</a>
+            <a class="nav-link" href="consultationPage.html">Konsultasi</a>
           </li>
         </ul>
       </div>
@@ -76,8 +76,15 @@
         width: 100%; height: 160.08px;">
       <div style="margin-left: -25px; margin-top: 22px;">
         <p style="color: black; font-size: 20px; font-weight: 550;">Data Pasien</p>
-        <p style="color: black; margin-top: -14px; font-size: 16px;">Nama: ezqiel</p>
-        <p style="color: black; margin-top: -14px; font-size: 16px;">Umur: 23 tahun</p>
+        <div>
+          <p style="display: inline-block; width: 100px; margin: 0; color: black; font-size: 16px;">Nama</p>
+          <p style="display: inline-block; margin: 0; color: black; font-size: 16px;">: ezqiel</p>
+        </div>
+        <div>
+          <p style="display: inline-block; width: 100px; margin: 0; color: black; font-size: 16px;">Umur</p>
+          <p style="display: inline-block; margin: 0; color: black; font-size: 16px;">: 23 tahun</p>
+        </div>
+        
       </div>
     </div>
     <!--data pasien end-->
@@ -87,11 +94,74 @@
   <!--Pembayaran 1-->
   <div class="container container-banner mx-auto my-3 py-3 " style="max-width: 1332px; width: 1332px; 
     height: 315.72px;">
-    <p style="font-size: 20px; font-weight: 550; color: black;">Pembayaran</p>
+    <p style="font-size: 20px; font-weight: 550; color: black; margin-left: 65px; margin-top: 32px;">Pembayaran</p>
+
+    <!--container gopay-->
+    <div class="container border-bottom" style="max-width: 1112px; width: 1040px; height: auto; margin-left: 65px; display: flex;">
+      <div style="margin-left: -15px; margin-bottom: 15px;">
+        <svg width="125px" height="28.77px" style="max-width: 125px; max-height: 28.77px;">
+          <image xlink:href="asset/gopayIcon.svg" width="100%" height="100%" />
+        </svg>
+      </div>
+
+      <div style="margin-left: 880px; justify-content: end; align-items: end;">
+        <input type="radio">
+      </div>
+    </div>
+    <!--container gopay end-->
+
+    <!--container dana-->
+    <div class="container border-bottom" style="max-width: 1112px; width: 1040px; height: auto; margin-left: 65px; margin-top: 20px; display: flex;">
+      <div style="margin-left: -15px; margin-bottom: 15px;">
+        <svg width="102px" height="29px" style="max-width: 102px; max-height: 29px;">
+          <image xlink:href="asset/danaIcon.svg" width="100%" height="100%" />
+        </svg>
+      </div>
+
+      <div style="margin-left: 902px; justify-content: end; align-items: end;">
+        <input type="radio">
+      </div>
+    </div>
+    <!--container dana end-->
+
+    <!--container ovo-->
+    <div class="container" style="max-width: 1112px; width: 1040px; height: auto; margin-left: 65px; margin-top: 20px; display: flex;">
+      <div style="margin-left: -15px; margin-bottom: 15px;">
+        <svg width="78px" height="24px" style="max-width: 78px; max-height: 24px;">
+          <image xlink:href="asset/ovoIcon.svg" width="100%" height="100%" />
+        </svg>
+      </div>
+
+      <div style="margin-left: 925px; justify-content: end; align-items: end;">
+        <input type="radio">
+      </div>
+    </div>
+    <!--container ovo end-->
+
   </div>
+  <!--Pembayaran 1 end-->
 
   <div class="container container-banner mx-auto my-3 py-3 " style="max-width: 1332px; width: 1332px; 
-    height: 301px;"></div>
+    height: 301px;">
+    <div class="container border-bottom" style="max-width: 1112px; width: 1040px; height: auto; margin-left: 65px; margin-top: 30px;">
+      <div style="display: flex;">
+        <p style="color: black;">Biaya Sesi 1 Jam</p>
+        <p style="color: black; margin-left: 800px;">Rp.50.000</p>
+      </div>
+      <div style="display: flex;">
+        <p style="color: black;">Biaya Sesi 1 Jam</p>
+        <p style="color: black; margin-left: 800px;">Rp.50.000</p>
+      </div>
+    </div>
+
+    <div style="display: flex; max-width: 1112px; width: 1040px; height: auto; margin-left: 80px; margin-top: 10px;">
+      <p style="color: black;">Total Pembayaran</p>
+      <p style="color: black; margin-left: 780px;">Rp.100.000</p>
+    </div>
+    <div style="margin-top: 35px; margin-left: 1010px;">
+      <a class="btn rounded-pill px-4" href="">Bayar</a>
+    </div>
+  </div>
 
   <!--About-->
   <div class="-fluid container-footer mx-auto" style="max-width: 1490px">
