@@ -425,6 +425,7 @@ body {
 .card-body{
   padding: 20px;
   margin-right: -10px;
+  
 }
 .judul {
   border-bottom: 3px solid #000;
@@ -438,9 +439,38 @@ body {
   margin-left: 20px;
   margin-block-end: 20px;
   margin-top: 20px;
-  
+  font-family: "Montserrat"; 
 }
 .text{
   font-size: 13px;
   color: #818181;
+
+}
+
+.d-flex {
+  margin-left: 250px;
+}
+.card-text{
+  color: #818181;
+  font-family: "Montserrat";
+}
+.card-title{
+  font-family:"Poppins", sans-serif; ;
+}
+.bawahgaris1{
+  margin-left: 40px;
+  color: #818181;
+}
+.bawahgaris2{
+  margin-left: 150px;
+  color: #818181;
+}
+.bawahgaris3{
+  margin-left: 620px;
+  color: #818181;
+}
+.row{
+  
+  font-family: "Montserrat";
+  font-size: 12px;
 }
